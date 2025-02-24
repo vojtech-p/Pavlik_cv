@@ -1,0 +1,24 @@
+Hordeum:
+randfor---MSE=0.0093---PCC=0.637
+lasso-----MSE=0.0077---PCC=0.735
+RR--------MSE=0.0074---PPC=0.700
+cnn-------MSE=0.0001---PPC=0.392
+
+Ath(6):
+randfor---MSE=0.0159---PCC=0.310
+lasso-----MSE=0.0146---PCC=0.350
+RR--------MSE=0.0243---PCC=0.279
+cnn-------MSE=0.0152---PCC=0.328
+
+Ath(16):
+randfor---MSE=0.0095---PCC=0.341
+lasso-----MSE=0.0087---PCC=0.369
+RR--------MSE=0.0111---PCC=0.310
+cnn-------MSE=0.0084---PCC=0.336
+
+Ath(all):
+randfor---MSE=0.0101---PCC=0.268
+lasso-----MSE=0.0091---PCC=0.339
+RR--------MSE=0.0104---PCC=0.269
+
+Best evaluation: LASSO
