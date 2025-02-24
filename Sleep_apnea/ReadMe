@@ -1,0 +1,24 @@
+Instructions:
+
+1. The goal of the project:
+The goal of the project is to develop an algorithm for the detection and classification of sleep apnea.
+
+2. Introduction to the topic, methods:
+An introduction to the topic and an overview of sleep apnea detection methods can be found e.g. in [1] and [2]. Both sources
+are available on e-learning. Many more can be found on the Internet.
+
+3. Guidelines for developing algorithms:
+Your task is to create an apneaDetection function. The input of this function will be a minute segment
+more signals included in the dataset file: air flow (data.Flow), air pressure
+(data.Pres), chest movements (data.Thor), abdominal movements (data.Abdo) and oxygen saturation
+(data.SpO2). The output of the function will be the numerical value of the diagnosis estimate: 1 (central apnea), 2
+(obstructive apnea), 3 (hypopnea) and 4 (no pathological respiratory event). The function will be called
+from the main script, which uses additional files needed for data loading and evaluation
+results (Annotation, dataset, F1score). Only modify the apneaDetection function, any modification
+main and other supplied files is undesirable.
+
+4. Data:
+To develop and test your algorithm, you will use selected data (dataset) from the MESA database [3].
+The sampling rates of the Flow, Pres, Thor and Abdo signals are 32 Hz, 1 Hz was used for the SpO2 signal.
+The data file is supplemented by an annotation.txt file with the numerical designation of individual diagnoses
+signals.
