@@ -1,15 +1,15 @@
-1) Motivation:
+1. Motivation:
 Text recognition is one of the fundamental tasks in automatic image processing involving textual data. Typical applications include recognizing license plates from traffic cameras, machine reading of archived medical records, automated recognition of player numbers on jerseys, and assistive tools for the visually impaired. The algorithm should be capable of recognizing characters in an image under various challenging conditions (reduced visibility, geometric distortion, noise, image artifacts) and regardless of the font type used.
 
-2) Project Objective:
+2. Project Objective:
 The goal of the project is to develop a classification model that recognizes digits from the range 0–9 in an input image and assigns them the corresponding value according to the given specifications.
 
-3) Data Files:
+3. Data Files:
 The training and testing data for the model are available in the trainData folder. The final testing will be performed on a hidden dataset. Therefore, it is essential to maintain the provided data structure (otherwise, the project cannot be automatically evaluated and will receive a score of 0).
 
 **characterName_id.png** – Image data of the character in *.png format (8-bit color depth, 3 channels).
 
 **references.csv** – A table containing reference values (target classes) for individual images. The class name corresponds to the given character (e.g., the character "3" is classified into class 3). An exception is made for the character "0," which is classified into class 10.
 
-4) Project Output:
+4. Project Output:
 To evaluate the classification performance, use a confusion matrix and F1 score
